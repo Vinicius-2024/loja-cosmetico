@@ -78,20 +78,20 @@
         }
 
         /* Hero Section - CORRIGIDA para celular */
-        /* Hero Section - CORRIGIDA para celular */
-.hero {
-    min-height: 100vh;
-    background-image: url('loja/imagem/davis.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    margin-top: 60px;
-    position: relative;
-}
+        .hero {
+            min-height: 100vh;
+            background-image: url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1200');
+            background-size: cover;
+            background-position: center;
+            /* background-attachment: fixed removido - causava problema no celular */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            margin-top: 60px;
+            position: relative;
+        }
 
         /* Overlay escuro para melhor contraste do texto */
         .hero::before {
